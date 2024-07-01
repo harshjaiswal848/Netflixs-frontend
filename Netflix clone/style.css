@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assests/images/back.jpg);
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-size: 100vw;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.65;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    color: white;
+    height: 84%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    gap: 23px;
+}
+
+
+.head {
+
+    font-size: 3em;
+    /* text-align: center; */
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.headd {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.headdd {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.separation {
+    height: 10px;
+    background-color: rgb(68, 60, 60);
+}
+
+.btn {
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.red-btn {
+    background-color: rgb(236, 19, 19);
+    border: 2px rgb(236, 19, 19);
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 1px 20px;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.sign-btn {
+    font-size: 14px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+    padding: 5px 10px;
+    background-color: rgb(236, 19, 19);
+    border-radius: 5px;
+    border: 2px rgb(236, 19, 19);
+    color: white;
+    padding: 2px 12px;
+}
+
+.main input {
+    padding: 12px 15px;
+    font-family: "Martel Sans", sans-serif;
+    justify-content: center;
+    background-color: rgba(23, 23, 23, 0.9);
+    width: 300px;
+    color: white
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+
+}
+
+.secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.secImg video {
+    margin: auto;
+    position: relative;
+    max-width: calc(100% - 10rem);
+    display: flex;
+    top: -250px;
+    right: 20px;
+}
+
+.secondImg video {
+    margin: auto;
+    position: relative;
+    max-width: calc(100% - 13rem);
+    display: flex;
+    top: -270px;
+    right: 38px;
+
+    z-index: 1;
+}
+
+.secondImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.first :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+.send{
+    font-size: 48px;
+    font-weight: 900;
+}
